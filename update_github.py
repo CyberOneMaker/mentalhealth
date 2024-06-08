@@ -39,7 +39,7 @@ def main():
         json_data.append({
             'title': entry.title,
             'link': entry.link,
-            'summary': entry.summary
+            
         })
 
     # Save the data to a JSON file
