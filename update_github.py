@@ -9,11 +9,22 @@ rss_feeds = [
     'https://www.mentalhealthamerica.net/rss.xml',
     'https://www.psychologytoday.com/us/rss.xml',
     'https://www.healthline.com/rss',
-    'https://rss.webmd.com/rss/rss.aspx?RSSSource=RSS_PUBLIC'
+    'https://rss.webmd.com/rss/rss.aspx?RSSSource=RSS_PUBLIC',
+    'https://www.apa.org/news/press/rss',
+    'https://www.theguardian.com/society/mental-health/rss',
+    'http://feeds.bbci.co.uk/news/health/rss.xml',
+    'https://www.nimh.nih.gov/rss/follow/nimhnewsandupdates.xml',
+    'https://www.mayoclinic.org/rss/psychiatry-and-psychology-rss-feed',
+    'https://www.health.harvard.edu/blog/feed',
+    'https://www.mindful.org/feed/',
+    'https://www.mentalhealth.org.uk/blog/rss',
+    'https://psychcentral.com/feed',
+    'https://medlineplus.gov/feeds/mentalhealth.xml'
 ]
 
+
 # Keywords to filter articles
-keywords = ['suicide', 'suicidal ideation', 'depression', 'mental health', 'anxiety']
+keywords = ['suicide', 'suicidal ideation', 'depression', 'mental health', 'anxiety', 'PTSD', 'self-harm', 'narcisism' ]
 
 def fetch_feed_entries(feed_url):
     feed = feedparser.parse(feed_url)
